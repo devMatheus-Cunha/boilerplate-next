@@ -4,15 +4,23 @@ import Main from '.'
 
 describe('<Main />', () => {
   it('should render the heading', () => {
-    // renderiza o component
+    // render the component
     const { container } = render(<Main />)
 
-    // busca o elemento e verifica a existência dele
+    // find the element and check its existence
     expect(
       screen.getByRole('heading', { name: /test to example/i })
     ).toBeInTheDocument()
 
-    // gerar snapshot
+    // generate snapshot
     expect(container.firstChild).toMatchSnapshot()
+  })
+
+  it('should render the colors correctly', () => {
+    // render the component
+    const { container } = render(<Main />)
+
+    // check if the background-color is correct
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
   })
 })
