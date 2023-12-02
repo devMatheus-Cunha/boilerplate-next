@@ -52,8 +52,7 @@ Follow these steps to create a project based on this boilerplate:
 1. **Create a new Next.js project using `create-next-app`:**
 
    ```bash
-   npx create-next-app nome-do-projeto -enpx create-next-app project-name -e https://github.com/devMatheus-Cunha/boilerplate-next
-
+   npx create-next-app project-name -e https://github.com/devMatheus-Cunha/boilerplate-next
    ```
 
    Replace `project-name` with your desired project name.
