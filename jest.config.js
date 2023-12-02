@@ -6,6 +6,7 @@ module.exports = {
     'src/**/*.ts(x)?',
     '!src/app/**', // should be tested in e2e
     '!src/lib/registry.tsx',
+    '!src/lib/reactQuery/**',
     '!src/types/**',
     '!src/styles/**',
     '!src/**/stories.tsx'
