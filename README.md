@@ -60,7 +60,7 @@ Follow these steps to create a project based on this boilerplate:
 2. **Navigate to the project folder:**
 
    ```bash
-   cd nome-do-projeto
+   cd project-name
    ```
 
 3. **Install dependencies:**
