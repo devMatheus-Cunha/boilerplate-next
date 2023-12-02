@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Boilerplate Next.js
+
+This repository serves as a Next.js boilerplate, providing a foundational structure for web development projects. A boilerplate is a predefined set of code and configurations designed to jumpstart the development process, allowing you to focus on building features rather than setting up the project from scratch.
+
+## What is Included?
+
+This boilerplate incorporates essential libraries to enhance your development experience. Here are the key dependencies:
+
+### Core Dependencies
+
+- **Next.js**: A React framework for building web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **Styled-components**: A popular styling library for React applications.
+- **TypeScript**: A superset of JavaScript that adds static typing.
+
+### State Management
+
+- **React Query**: A library for managing and caching server state in React applications.
+
+### Form Handling
+
+- **React Hook Form**: A library for efficient form management in React.
+
+### HTTP Requests
+
+- **Axios**: A promise-based HTTP client for the browser and Node.js.
+
+### Validation
+
+- **Zod**: A TypeScript-first schema declaration and validation library.
+
+### Development Tools
+
+- **Storybook**: An open-source tool for developing UI components in isolation.
+- **Prettier**: An opinionated code formatter for consistent code styling.
+- **ESLint**: A pluggable JavaScript linter for identifying and fixing problems.
+- **Plop**: A micro-generator toolkit that helps scaffold new files and components.
+
+### Git Hooks
+
+- **Husky**: A library that enables running scripts in response to Git events, facilitating pre-commit and pre-push hooks.
+
+### Testing
+
+- **Jest**: A JavaScript testing framework.
+- **Testing Library**: A set of utilities for testing React components.
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to create a project based on this boilerplate:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Create a new Next.js project using `create-next-app`:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   npx create-next-app nome-do-projeto -e https://github.com/seuusuario/nome-do-repositorio
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   Replace `nome-do-projeto` with your desired project name and `seuusuario/nome-do-repositorio` with your GitHub username and repository name.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Navigate to the project folder:**
 
-## Learn More
+   ```bash
+   cd nome-do-projeto
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Install dependencies:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Start the development server:**
 
-## Deploy on Vercel
+   ```bash
+   yarn dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Now, you have a powerful foundation for your Next.js project. Customize it to suit your specific needs and start building amazing web applications! Feel free to reach out for any questions or improvements. Happy coding!
