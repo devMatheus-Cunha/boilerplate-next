@@ -1,6 +1,6 @@
 # Boilerplate Next.js
 
-This repository serves as a Next.js boilerplate, providing a foundational structure for web development projects. A boilerplate is a predefined set of code and configurations designed to jumpstart the development process, allowing you to focus on building features rather than setting up the project from scratch.
+This repository serves as a Next.js boilerplate, offering a foundational structure for web development projects. A boilerplate is a predefined set of code and configurations designed to expedite the development process, enabling you to focus on building features rather than setting up the project from scratch.
 
 ## What is Included?
 
@@ -45,6 +45,10 @@ This boilerplate incorporates essential libraries to enhance your development ex
 - **Jest**: A JavaScript testing framework.
 - **Testing Library**: A set of utilities for testing React components.
 
+## GitHub Actions (CI)
+
+This project also includes continuous integration (CI) with GitHub Actions. GitHub Actions workflows are configured to automatically run tests, build, lint, and more whenever there is a change in the repository. This ensures everything is correct before making pull requests or performing merges.
+
 ## Getting Started
 
 Follow these steps to create a project based on this boilerplate:
@@ -75,4 +79,4 @@ Follow these steps to create a project based on this boilerplate:
    yarn dev
    ```
 
-Now, you have a powerful foundation for your Next.js project. Customize it to suit your specific needs and start building amazing web applications! Feel free to reach out for any questions or improvements. Happy coding!
+Now you have a solid foundation for your Next.js project. Customize it to suit your specific needs and start building amazing web applications! Feel free to reach out for any questions or suggestions. Happy coding!

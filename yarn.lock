@@ -6947,7 +6947,7 @@ human-signals@^5.0.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-5.0.0.tgz#42665a284f9ae0dade3ba41ebc37eb4b852f3a28"
   integrity sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==
 
-husky@^8.0.0:
+husky@^8.0.3:
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
   integrity sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==
@@ -8155,11 +8155,6 @@ lint-staged@^15.1.0:
     pidtree "0.6.0"
     string-argv "0.3.2"
     yaml "2.3.4"
-
-"lint@next lint":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/lint/-/lint-1.1.2.tgz#35ed064f322547c331358d899868664968ba371f"
-  integrity sha512-kOzKdN0iSdkx57102MxZd64yn32rHaB6xqBMN3hyCRiBV2xiurM75XWvTHWNK/SJBCddHPhjDLV+kNr3Uf1MGg==
 
 listr2@7.0.2:
   version "7.0.2"
