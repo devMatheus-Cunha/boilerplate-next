@@ -1,3 +1,5 @@
+'use strict'
+
 const config = {
   staticDirs: ['../public'],
   stories: ['../src/components/**/stories.tsx'],
