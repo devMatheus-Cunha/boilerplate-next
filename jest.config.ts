@@ -1,4 +1,7 @@
-module.exports = {
+'use strict'
+import type { Config } from 'jest'
+
+const config: Config = {
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
@@ -24,3 +27,5 @@ module.exports = {
       'styled-components/dist/styled-components.browser.cjs.js'
   }
 }
+
+export default config
